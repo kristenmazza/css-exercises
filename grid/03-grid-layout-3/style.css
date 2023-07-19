@@ -5,9 +5,6 @@
 
 .container {
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: 4px;
 }
 
 .container div {
@@ -46,9 +43,6 @@
 
 .sidebar {
   background-color: #FF7755;
-  display: grid;
-  gap: 50px;
-  grid-row: 2 / 4;
 }
 
 .sidebar .photo {
@@ -68,12 +62,12 @@
 }
 
 .side-content, .photo {
-  display: grid;  
+  display: grid;
   align-items: center;
 }
 
 .nav {
-  background-color: #FF7755;
+  background-color: #C50208;
 }
 
 .nav ul li {
@@ -128,5 +122,5 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }

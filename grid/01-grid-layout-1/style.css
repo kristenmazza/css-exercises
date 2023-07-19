@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -39,7 +40,11 @@ body, html {
 }
 
 .article {
-  background-color: #bccbde;
+  background-color: #7E1DC3;
+}
+
+.footer {
+  background-color: #393f4d;
 }
 
 .article p {
